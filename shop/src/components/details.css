@@ -1,0 +1,89 @@
+.details {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.details .img-container {
+  max-width: 400px;
+  width: 100%;
+  margin: 20px;
+  height: 450px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.details .img-container:hover {
+  background-size: 150%;
+  border: 1px solid #ddd;
+  cursor: zoom-in;
+}
+
+.box-details {
+  max-width: 500px;
+  width: 100%;
+  margin: 20px;
+}
+
+.box-details h2 {
+  color: darkblue;
+  letter-spacing: 2px;
+  font-size: 2rem;
+}
+.box-details h3 {
+  margin: 10px 0;
+}
+.box-details button {
+  border: 1px solid #555;
+  cursor: pointer;
+  background: #333;
+  color: #fff;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.colors button {
+  width: 35px;
+  height: 35px;
+}
+
+.box-details p {
+  line-height: 1.5;
+  margin: 10px 0;
+  opacity: 0.8;
+}
+
+.box-details .thumb {
+  display: flex;
+  cursor: pointer;
+}
+
+.box-details .thumb img {
+  width: 50px;
+  margin: 20px;
+  overflow: hidden;
+}
+.details .cart {
+  background-color: aqua;
+  width: 200px;
+  height: 45px;
+  border-radius: 7px;
+  position: relative;
+  justify-content: center;
+  padding: 4px;
+}
+.details .cart p {
+  display: flex;
+  color: black;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  line-height: 0px;
+}

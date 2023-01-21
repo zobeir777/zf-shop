@@ -1,0 +1,73 @@
+.popular-title {
+  text-align: center;
+  margin-top: 50px;
+  color: black;
+  font-size: 33px;
+}
+.populary {
+  width: 100%;
+  height: 100%;
+}
+
+.populary .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin: 20px auto;
+}
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 33px;
+  right: 30px;
+  left: 30px;
+  margin-right: 11px;
+  background: #a7f7ff9c;
+  border-radius: 5%;
+  margin-left: 11px;
+}
+
+.product-item {
+  width: calc(40.33% - 20px);
+  margin-bottom: 35px;
+  height: 90px;
+}
+
+.product-item img {
+  width: 100%;
+}
+.product button {
+  background: rgb(32, 43, 73);
+  padding: 5px 10px;
+  font-family: "vazir";
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  color: aliceblue;
+}

@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 10px auto;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  font-family: "vazir" !important;
+}
+/**/
+
+body {
+  width: 1000px;
+  direction: rtl;
+  font-family: "vazir" !important;
+}
+
+nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  background: #272fff;
+  color: #fff;
+  height: 30px;
+}
+nav a {
+  color: #fff;
+  font-size: 18px;
+}
+/*.image {
+  margin-right: 0px;
+  margin-top: 20px;
+}
+.image img {
+  width: 1000px;
+  height: 300px;
+}*/
+
+.right-navbar {
+  position: relative;
+}
+.notif {
+  border-radius: 50%;
+  font-size: 13px;
+  background: rgb(39, 116, 240);
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  -webkit-border-radius: ;
+  -moz-border-radius: ;
+  -ms-border-radius: ;
+  -o-border-radius: ;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul li {
+  margin-left: 20px;
+}
+nav .menu {
+  display: none;
+}
+.nav-menu {
+  transition: all 0.3s ease;
+}
+.ad {
+  display: flex;
+  background: #b9ffff2e;
+}
+.nav .search-form {
+  display: flex;
+}
+.nav .form-bundle {
+  display: flex;
+}
+@media screen and (min-width: 768px) {
+  .nav-menu {
+    height: auto !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main {
+    position: relative;
+  }
+  nav {
+    z-index: 55;
+    position: relative;
+
+    overflow: hidden;
+  }
+  nav .menu {
+    display: block;
+  }
+
+  .nav-menu {
+    position: fixed;
+    /*display: none;*/
+    right: 0;
+    left: 0;
+    top: 70px;
+    height: 10px;
+
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+  }
+  .swiper-container {
+    width: 768px;
+  }
+  .nav-menu ul {
+    display: block;
+  }
+  .nav-menu ul li {
+    padding: 15px 20px;
+    color: blue;
+  }
+  .nav-menu ul li a {
+    color: black;
+  }
+  .slider {
+    margin-top: 20px;
+  }
+  .swiper-container {
+    width: 768px;
+  }
+
+  .products {
+    position: absolute;
+    width: 100%;
+  }
+}
